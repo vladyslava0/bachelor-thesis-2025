@@ -13,7 +13,6 @@ Academic year: 2024/2025
 
 ## Folder Structure
 
-- `thesis/` - contains the LaTeX source files of the written thesis.
 - `implementation/` - contains the code and related files.
   - `WWW/` - a simple static page used for testing the proxy behavior.
   - `proxy/` - the main source code of the proxy server.

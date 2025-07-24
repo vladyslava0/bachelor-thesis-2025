@@ -1,0 +1,122 @@
+
+@media screen and (max-width: 1175px) {
+    .tool__items{
+        width: 100%;
+    }
+    .postava__item img{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header__inner {
+        flex-wrap: wrap;
+        height: auto;
+        padding-top: 25px;
+    }
+    .menu {
+        order: 1;
+        width: 100%;
+    }
+    .menu__list {
+        justify-content: flex-end;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .top__inner h1{
+        text-align: center;
+    }
+    .top__inner img{
+        width: 80%;
+        margin: 0 auto;
+        order: -1;
+        float:none;
+    }
+    .postava__items{
+        display:inline-block;
+    }
+    .postava_top,
+    .postava_bottom{
+        width: 100%;
+    }
+    .porovnavani__item-img {
+        width: 80%;
+        margin: 0 auto;
+        order: -1;
+    }
+    .porovnavani__item {
+        flex-wrap: wrap;
+    }
+    .porovnavani__item-content {
+        max-width: 100%;
+    }
+    .wiki__item {
+        display: none;
+    }
+    .wiki__inner {
+        padding: 80px 0;
+    }
+    .footer__inner {
+        display: inline-block;
+    }
+    .logo__img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .top__inner,
+    .porovnavani,
+    .blog {
+        padding: 80px 0 60px;
+    }
+    .top__title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .top__btn {
+        margin-bottom: 25px;
+    }
+    .postava {
+        padding-top: 80px;
+    }
+    .postava__inner {
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    .header__inner {
+        display: block;
+    }
+    .menu__list {
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        text-align: center;
+        transition: all .3s;
+        transform: translateY(-300%);
+    }
+    .menu__list.menu__list--active {
+        transform: translateY(0%);
+        transition: all .3s;
+    }
+    .postava__title,
+    .porovnavani__item-title,
+    .wiki__title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .porovnavani__item {
+        margin-bottom: 40px;
+    }
+    .footer__inner {
+        justify-content: space-around;
+    }
+}

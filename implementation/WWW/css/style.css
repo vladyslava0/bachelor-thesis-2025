@@ -1,0 +1,388 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; 
+    color: #544837;
+    font-size: 16px;
+    line-height: 26px;
+    margin:0;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+.header{ 
+    background: linear-gradient(to top, #ffffff,#ca7e38);
+}
+.header__inner {
+    padding: 70px 0;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+.header__inner h2{
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+     font-size: 200%;
+}
+.header__inner h2 a{
+    text-decoration: none;
+    color: #644431;
+}
+
+.menu {
+    display: inline-block;
+    max-width: 352px;
+    vertical-align: middle;
+    margin: 0 198px 0 198px;
+}
+
+.menu__list {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu__list-item {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.menu__list-item + .menu__list-item {
+    margin-left: 24px;
+}
+
+.menu__list-link {
+    color: #2f281E;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.menu__list-link:hover {
+    color: #ff7b00;
+}
+
+.top__inner {
+    padding: 50px 0 80px;
+    overflow: hidden;
+}
+
+
+.top__inner h1{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 54px;
+    margin-bottom: 30px;
+    max-width: 518px;
+    
+}
+.top__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    max-width: 460px;
+    float:left;  
+    width: 60%; 
+}
+.top__inner img{ 
+    float: right;
+    width: 40%;
+    border-radius: 20%;
+    overflow: hidden;
+}
+.top__inner img:hover {
+  box-shadow: 0 0 15px rgba(255, 109, 12, 0.644); 
+  transform: scale(1.005);
+}
+
+
+
+.postava {
+    padding-top: 110px;
+}
+
+.postava__title {
+    text-align: center;
+    max-width: 539px;
+    margin: 0 auto 46px;
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.postava__inner {
+    padding-bottom: 90px;
+    background-image: url(../images/postava-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+.postava_top,
+.postava_bottom,
+.postava__items {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px 0;
+    margin-bottom: 60px;
+}
+
+.tool__item {
+    width: 25%;
+}
+
+.postava__item-img {
+    margin-bottom: 30px;
+    height: 300px; 
+}
+
+.postava__item-title {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+/* ################################################ */
+
+.porovnavani__item-img{
+    width: 50%;
+    height: 50%;
+}
+.porovnavani {
+    padding: 120px 0 100px;
+}
+
+.porovnavani__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.porovnavani__item-content {
+    max-width: 486px;
+}
+
+.porovnavani__item-title {
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.porovnavani__item-subtitle {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.porovnavani__item-text {
+    margin-bottom: 25px;
+}
+
+.porovnavani__list {
+    list-style: none;
+}
+
+.porovnavani__list-item {
+    margin-bottom: 30px;
+    padding-left: 65px;
+    position: relative;
+}
+
+.porovnavani__list-item::before {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background-image: url(../images/check.svg);
+}
+/* ######################################################## */
+.wiki {
+    background-image: url(../images/wiki-bg.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.wiki__inner {
+    padding: 230px 0 380px;
+    position: relative;
+}
+
+.wiki__box {
+    text-align: center;
+    margin: 542px;
+    margin: 0 auto;
+}
+
+.wiki__title {
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.wiki__btn {
+   background-color: #ff9900; 
+    border: none;
+    border-radius: 4px;
+    padding: 15px 30px 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.wiki__btn a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.wiki__item {
+    position: absolute;
+    width: 98px;
+    height: 98px;
+}
+
+.wiki__item--1 {
+    top: 157px;
+    right: 95px;
+}
+
+.wiki__item--2 {
+    top: 223px;
+    left: 0;
+}
+
+.wiki__item--3 {
+    bottom: 257px;
+    right: 0;
+}
+
+.wiki__item--4 {
+    bottom: 223px;
+    left: 210px;
+}
+
+.wiki__item--5 {
+    bottom: 135px;
+    right: 300px;
+}
+
+.wiki__item-img {
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.wiki__item-text {
+    background-color: #fff;
+    padding: 14px 20px 15px;
+    color: #2f281e;
+    box-shadow: 0px 2px 8px rgba(86, 117, 146, 0.1);
+    border-radius: 26px;
+    position: absolute;
+    top: -30px;
+    right: 75px;
+    white-space: nowrap;
+}
+
+.wiki__item-text.wiki__item-text--left {
+    top: -41px;
+    right: auto;
+    left: 62px;
+}
+
+.wiki__item-text--right::after,
+.wiki__item-text--right::before,
+.wiki__item-text--left::after,
+.wiki__item-text--left::before {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.wiki__item-text--right::after,
+.wiki__item-text--left::after{
+    width: 17px;
+    height: 17px;
+    bottom: -7px;
+    right: 30px;
+}
+
+.wiki__item-text--right::before,
+.wiki__item-text--left::before{
+    width: 9px;
+    height: 9px;
+    bottom: -20px;
+    right: 9px;
+}
+
+.wiki__item-text--left::before {
+    left: 9px;
+    right: auto;
+}
+
+.wiki__item-text--left::after {
+    left: 30px;
+    right: auto;
+}
+
+/* ####################################################################### */
+.logo__img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+.footer__inner {
+    padding: 105px 0 100px;
+    border-top: 1px solid rgba(188, 208, 229, 0.496913);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__menu-title {
+    margin-bottom: 35px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2F281E;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer__list {
+    list-style: none;
+}
+.footer__menu-link,
+.footer__menu-link {
+    font-size: 16px;
+    line-height: 35px;
+    color: #544837;
+    text-decoration: none;
+}
+.footer__menu-link:hover{
+    font-size: 16px;
+    line-height: 35px;
+    color: #f9923d;
+    text-decoration: none;
+}
+
+
